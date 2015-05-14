@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Material Tabs, UI Router and Breadcrumbs</title>
+    <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css">
+    <base href="/">
+</head>
+
+<body ng-app="mdTabsHref" layout="column">
+<md-content class="md-padding" flex layout="row" layout-align="center start" id="main-content" style="background-color: #eee;">
+    <div id="content" ui-view flex></div>
+</md-content>
+
+
+<!-- Angular Material Dependencies -->
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/angular-animate/angular-animate.js"></script>
+<script src="/bower_components/angular-aria/angular-aria.js"></script>
+
+<!-- Angular Material Javascript using RawGit to load directly from `bower-material/master` -->
+<script src="/bower_components/angular-material/angular-material.js"></script>
+
+<script src='/bower_components/angular-ui-router/release/angular-ui-router.js'></script>
+
+<script src='/bower_components/angular-breadcrumb/release/angular-breadcrumb.js'></script>
+
+<script src="/scripts/main.js"></script>
+
+</body>
+</html>

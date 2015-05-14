@@ -1,0 +1,35 @@
+<md-tabs md-stretch-tabs="always"
+         md-border-bottom
+         md-dynamic-height
+         class="md-whiteframe-z2"
+         flex-gt-lg="60"
+         flex-lg="70"
+         flex-md="70"
+         flex-sm="90"
+         style="background-color:#ffffff"
+         selected="currentTab">
+    <md-tab
+            md-on-select="transitionTo('tabs.view1.choices',{})"
+            md-active="state.is('tabs.view1.choices')">
+        <md-tab-label>Tab 1</md-tab-label>
+        <md-tab-body class="md-padding">
+            <div ui-view="view1" flex></div>
+        </md-tab-body>
+    </md-tab>
+    <md-tab
+            md-on-select="transitionTo('tabs.view2',{})"
+            md-active="state.is('tabs.view2')">
+        <md-tab-label>Tab 2</md-tab-label>
+        <md-tab-body class="md-padding">
+            <div ui-view="view2" flex></div>
+        </md-tab-body>
+    </md-tab>
+    <md-tab
+            md-on-select="transitionTo('tabs.view3',{})"
+            md-active="state.is('tabs.view3')">
+        <md-tab-label>Tab 3</md-tab-label>
+        <md-tab-body class="md-padding" >
+            <div ui-view="view3" flex></div>
+        </md-tab-body>
+    </md-tab>
+</md-tabs>

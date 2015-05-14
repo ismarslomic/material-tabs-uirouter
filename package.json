@@ -1,0 +1,12 @@
+{
+  "name": "material-tabs-uirouter",
+  "version": "1.0.0",
+  "description": "Angular app demonstrating md-tabs, ui-router, nested views, breadcumbs and pretty urls",
+  "devDependencies": {
+    "express": "^4.12.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "Ismar Slomic"
+}
